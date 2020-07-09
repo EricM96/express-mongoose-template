@@ -4,7 +4,7 @@
   "description": "Boilerplate for a Node, Express, Mongoose api project",
   "main": "src/index.js",
   "scripts": {
-    "start": "nodemon --exec babel-node src/index.jsP",
+    "start": "nodemon --exec babel-node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "./node_modules/.bin/eslint"
   },
