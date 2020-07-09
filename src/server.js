@@ -1,7 +1,8 @@
 import express from 'express';
+import addRoutes from './routes/routes.index';
 
 const app = express();
 
-require('./routes/routes.index.js')(app);
+addRoutes(app);
 
 app.listen(8000, () => {});
