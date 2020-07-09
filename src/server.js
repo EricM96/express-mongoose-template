@@ -1,8 +1,7 @@
 import express from 'express';
-import rootController from './controllers/root.controller';
 
 const app = express();
 
-app.get('/', rootController);
+require('./routes/routes.index.js')(app);
 
 app.listen(8000, () => {});
